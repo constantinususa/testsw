@@ -1,0 +1,260 @@
+@charset "utf-8";
+
+body, html {
+  height: 100%;
+}
+
+.list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start | center;
+  
+}
+
+
+
+
+people{
+  max-width: 300px;
+  background: grey;
+  border-radius: 10px;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  padding-top: 5px;
+  margin: 20px;
+  color: white;
+}
+
+.left {
+  position: relative;
+   left: -50px;
+}
+.right {
+  position: relative;
+   left: -50px;
+}
+
+.face {
+    background-color: #fcba03;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+   }
+
+   .mouth {
+    position: relative;
+    background-color: black;
+    width: 50px;
+    height: 25px;
+    border-radius: 7px 7px 50px 50px;
+    top: 50px;
+    left: 25px;
+  } 
+
+  .eye-section {
+      width: 70px;
+      height: 25px;
+      position: absolute;
+      left: -10px;
+      top: -30px;
+      display: flex;
+      justify-content:space-between;
+    }
+
+  .left-eye, .right-eye {
+    background-color: #4f2103;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .blue{
+    background-color: blue; 
+  }
+
+  .yellow{
+    background-color: yellow; 
+  }
+  
+
+
+people name {
+    display: block;
+    text-transform: uppercase;
+   letter-spacing: 4px;
+   text-align: center;
+   display: block;
+   border-bottom:1px solid white;
+   margin-bottom: 20px;
+   cursor: hand;
+}
+
+
+people height {
+    display: block;
+    text-align: center;
+}
+
+height::before {
+  content: "Height : ";
+  font-weight: bold;
+}
+
+mass::before {
+  content: "Mass : ";
+  font-weight: bold;
+}
+
+people mass {
+    display: block;
+    text-align: center;
+}
+
+
+hair_color::before {
+  content: "Hair : ";
+  font-weight: bold;
+}
+
+people hair_color {
+    display: block;
+    text-align: center;
+}
+
+
+skin_color::before {
+  content: "Skin : ";
+  font-weight: bold;
+}
+
+people skin_color {
+    display: block;
+    text-align: center;
+}
+
+eye_color::before {
+  content: "Eye : ";
+  font-weight: bold;
+}
+
+people eye_color {
+    display: block;
+    text-align: center;
+}
+
+
+gender::before {
+  content: "gender : ";
+  font-weight: bold;
+}
+
+people gender {
+    display: block;
+    text-align: center;
+}
+
+birth_year::before {
+  content: "birth : ";
+  font-weight: bold;
+}
+
+people birth_year {
+    display: block;
+    text-align: center;
+}
+
+zone {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+people film{
+  padding-top: 5px;
+  color: white;
+}
+
+film title {
+  display: block;
+  text-transform: uppercase;
+ letter-spacing: 4px;
+ text-align: center;
+ display: block;
+ border-bottom:1px solid white;
+ margin-bottom: 5px;
+ cursor: hand;
+}
+
+film{
+  max-width: 320px;
+  background: grey;
+  border-radius: 10px;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: block;
+  padding-top: 5px;
+  margin: 20px;
+  color: white;
+}
+
+film opening_crawl {
+  display: block;
+  text-align: center;
+
+  padding-bottom: 10px;
+
+}
+
+
+episode_id::before {
+  content: "episode : ";
+  font-weight: bold;
+}
+
+film episode_id {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+director::before {
+  content: "director : ";
+  font-weight: bold;
+}
+
+film director {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+producer::before {
+  content: "producer : ";
+  font-weight: bold;
+}
+
+film producer {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+release_date::before {
+  content: "release date : ";
+  font-weight: bold;
+}
+
+film release_date {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
